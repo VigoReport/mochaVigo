@@ -1,1 +1,1 @@
-require('./lib/MochaVigo')
+module.exports = require('./lib/MochaVigo')
