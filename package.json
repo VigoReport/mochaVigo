@@ -1,6 +1,6 @@
 {
   "name": "mochavigo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate mocha test-cases report. Also view report on web dashboard @ https://vigoreport.io",
   "main": "index.js",
   "scripts": {
