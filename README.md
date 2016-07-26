@@ -24,13 +24,15 @@ You will need project-key For the configuration.
 
   `npm install --save-dev mochavigo`
 
-2. Add Project key into --reporter-options and use the MochaVigo 
+2. Configuration
 
+  ### Command CLI
+  Use mocha option `--reporter-options`
+  
+  ex.
   `mocha testfile.js --reporter mochavigo --reporter-options project-key={yourkey}`
   
-   ------------------------------------------------------------------  OR ---------------------------------------------------------------
-     If you are using mocha programatically:
-
+  ### Programatically
   ```js
    var mocha = new Mocha({
       reporter: 'mochavigo'
@@ -42,8 +44,9 @@ You will need project-key For the configuration.
   });
   ```
   
-   ------------------------------------------------------------------  OR ---------------------------------------------------------------
-If you are using mocha.opts
+  #### Config with mocha.opts
+  
+  Add this options in mocha.opts file
  
   `--reporter mochavigo` <br />
   `--reporter-options project-key={yourkey}`
