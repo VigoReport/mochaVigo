@@ -6,7 +6,7 @@ MochaVigo is a custom reporter for use with the Javascript testing framework, [m
 
 ##Sample Report
 
-You can show sample report [here][3].
+You can show sample report <a href="https://vigoreport.io/app/builds/5796ee8722874866792c6c79" target="_blank">Here</a>
 
 ##Prerequisites
 You will need project-key For the configuration.
@@ -53,4 +53,3 @@ You will need project-key For the configuration.
   
 [1]: https://github.com/mochajs/mocha
 [2]: https://vigoreport.io/login
-[3]: https://vigoreport.io/app/builds/5796ee8722874866792c6c79
