@@ -40,5 +40,7 @@
     "underscore": "*"
   },
   "homepage": "https://github.com/VigoReport/mochaVigo#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "opener": "^1.4.1"
+  }
 }
