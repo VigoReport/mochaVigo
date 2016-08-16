@@ -26,6 +26,7 @@
     "url": "https://github.com/VigoReport/mochaVigo/issues"
   },
   "dependencies": {
+    "async": "^2.0.1",
     "chalk": "^1.0.0",
     "highlight.js": "^8.5.0",
     "json-stringify-safe": "^5.0.0",
@@ -38,5 +39,8 @@
     "request-json": "^0.6.0",
     "underscore": "*"
   },
-  "homepage": "https://github.com/VigoReport/mochaVigo#readme"
+  "homepage": "https://github.com/VigoReport/mochaVigo#readme",
+  "devDependencies": {
+    "opener": "^1.4.1"
+  }
 }
