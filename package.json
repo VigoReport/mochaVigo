@@ -1,6 +1,6 @@
 {
   "name": "mochavigo",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Generate mocha test-cases report. Also view report on web dashboard @ https://vigoreport.io",
   "main": "index.js",
   "scripts": {
@@ -37,10 +37,8 @@
     "ncp": "^1.0.1",
     "node-uuid": "^1.4.1",
     "request-json": "^0.6.0",
-    "underscore": "*"
-  },
-  "homepage": "https://github.com/VigoReport/mochaVigo#readme",
-  "devDependencies": {
+    "underscore": "*",
     "opener": "^1.4.1"
-  }
+  },
+  "homepage": "https://github.com/VigoReport/mochaVigo#readme"
 }
