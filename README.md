@@ -1,13 +1,16 @@
-mochaVigo
+mochaVigo- Custom reporter for web.
 =========
 MochaVigo is a custom reporter for use with the Javascript testing framework, [mocha][1]. It sends your test result to [web][2] where you can get visualize your test suites.
 
 
 
 ##Sample Report
-
 You can show sample report <a href="https://vigoreport.io/app/builds/5796ee8722874866792c6c79" target="_blank">Here</a>
 
+##Public Dashboard
+  1. <a href="https://vigoreport.io/p/MUO9eVz" target="_blank">Mongoose</a>
+  2. <a href="https://vigoreport.io/p/mrC2MUz" target="_blank">Trailpack-annotations</a>
+  
 ##Prerequisites
 You will need project-key For the configuration.
 
@@ -17,6 +20,7 @@ You will need project-key For the configuration.
 2. Create Project and get your project-key by clicking on edit icon.
 3. Copy project-key `project-key:6c32f1d263323cead18805129aac43b536a5xxxx`
 
+>  If you don't provide the `project-key`, still you will find `html report` on local directory.
 
 ##Usage and Options
 
