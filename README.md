@@ -21,6 +21,7 @@ You will need project-key For the configuration.
 3. Copy project-key `project-key:6c32f1d263323cead18805129aac43b536a5xxxx`
 
 >  If you don't provide the `project-key`, still you will find `html report` on local directory.
+>>  No need of `html report` then just pass `--reporter-options localReport=false`
 
 ##Usage and Options
 
@@ -54,6 +55,14 @@ You will need project-key For the configuration.
  
   `--reporter mochavigo` <br />
   `--reporter-options project-key={yourkey}`
-  
+ 
+  #### Command and description for `--reporter-options`
+   | Command | Value | Description |
+   | --- | --- | --- |
+   | `project-key` | `129aac43b536a5xxxx` |key used to sync your build with vigoreport |
+   | `localReport` | `true||false` | `html-report` create  |
+   | `autoOpen` | `true||false` | auto open `html-report`  |
+
+
 [1]: https://github.com/mochajs/mocha
 [2]: https://vigoreport.io/login
